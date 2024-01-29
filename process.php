@@ -88,8 +88,8 @@ class Process extends IProcess {
                 
                 if($mobileNo!="")
                 {
-                    $url =  'http://tsms.ir/url/tsmshttp.php?from=3000151574&to='.$mobileNo.'&username=shirazmch&password=g57lne6m&message='.$message;
-                    //$url =  'http://tsms.ir/url/tsmshttp.php?from=3000151574&to=09173021974&username=shirazmch&password=tsms23521&message='.$message;
+                    $url =  'http://tsms.ir/url/tsmshttp.php?from=3000151574&to='.$mobileNo.'&username=&password=&message='.$message;
+                    //$url =  'http://tsms.ir/url/tsmshttp.php?from=3000151574&to=&username=&password=&message='.$message;
                     $curl = curl_init();
                     curl_setopt_array($curl, array(
                         CURLOPT_RETURNTRANSFER => 1,
